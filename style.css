@@ -28,43 +28,125 @@ color: #FFF;
 }
 
 #banner {
-    background: url(image.jpg);
+    background: url(sugarcane.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#banner h1 {
+#banner h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    color: #ffffff;
-
+    font-size: 50px;
+    color: #ecebf1;
 }
 
-#banner p {
+#banner p{
     font-size: 20px;
+    color: #080813;
 }
-section {
-    padding: 45px 0;
+
+section{
+    padding: 100px 0 ;
 }
+
 .card-image-top {
-    width: 50%;
+    width: 40%;
 }
+
 .card {
     border-radius: 0;
-    margin-top: 30px;
-    border: 3px solid #304438;
+    margin-top: 20px;
+    border: 3px solid #1c1919;
     padding: 20px;
 
 }
+
 .card .card-title {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
-#shessh h2{
+#Rannille h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    
+}
+
+#about .ngee{
+    height: 80vh;
+    background: url(100.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#about .eyyy{
+    padding: 100px;
+}
+#about h2, #about h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#about {
+    background-color: WHITE;
+}
+
+.testimonial {
+    border: 4px solid #222722;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.testimonial img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+#FAQ {
+    background: #222722;
+}
+
+#FAQ h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.FAQ-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0% !important;
+}
+
+.accordion-button {
+    background-color: #ecebf1;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0% !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #080813;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid #080813;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #1c1919;
+
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #0d3b1f;
+    color: #120553;
+
+}
+
+.accordion-button:hover {
+    background-color: #080813;
+    color: #fff;
 }
