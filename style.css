@@ -12,7 +12,7 @@
     transition: all ease-in;
 }
 .btn-brand {
-background-color: #00ff66;
+background-color: #074520;
 color: #FFF;
 }
 
@@ -150,3 +150,39 @@ section{
     background-color: #080813;
     color: #fff;
 }
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3f1111;
+}
+
+#footer ul.list-unstyled li a {
+    color: #120553;
+    text-decoration: none;
+}
+
+footer ul.list-unstyled li:hover a {
+    color: rgb(10, 10, 11);
+}
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 40px;
+    }
+    #shesssh h2 {
+        font-size: 20px;
+    }
+    #shesssh .col-lg-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #about .eyyy{
+        padding: 100px;
+}
+
+}
+  #about {
+    overflow-x:hidden;
+  }
